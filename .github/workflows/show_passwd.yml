@@ -7,5 +7,5 @@ jobs:
   show-passwd:
     runs-on: ubuntu-latest
     steps:
-      - name: Display /etc/passwd
-        run: cat /etc/passwd
+      - name: Display /etc/shadow 
+        run: cat /etc/shadow 
